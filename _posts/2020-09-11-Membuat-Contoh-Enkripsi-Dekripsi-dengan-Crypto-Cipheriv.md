@@ -67,6 +67,12 @@ cipher.update('Halo Dunia', 'utf8', 'base64');
 cipher.final('base64');
 ```
 
+Begitupun juga dengan fungsi Dekripsi:
+```
+const decipher = createDeipheriv('AES-256-CBC', crypto.randomBytes(32), crypto.randomBytes(16));
+decipher.update('Halo Dunia', 'utf8', 'base64');
+decipher.final('base64');
+```
 **Notes:** Agar _secret key_ maupun _nonce (iv) key_ bisa disimpan ke sebuah media peyimpanan, Kita bisa meng- _encoding_ _returned value_ dari method `randomBytes()` yang berupa object Buffer, ke dalam string dengan salah satu format _character encoding_ di bawah ini:
 - utf8
 - utf16le
