@@ -23,7 +23,8 @@ Yang perlu kita ketahui bahwa fungsi `createCipheriv()` maupun `createDecipheriv
 `crypto.createDecipheriv(algorithm, key, iv[, options])`
 
 **Keterangan:**\
-**Parameter ke-1** adalah tipe algoritma yang ingin kita gunakan, algoritma yang didukung oleh crypto sangat bergantung kepada library yang didukung openssl, untuk melihat algoritma apa saja yang di-support oleh openssl, ketikkan perintah `openssl list -cipher-algorithms` pada layar console,\
+**Parameter ke-1** adalah tipe algoritma yang ingin kita gunakan, algoritma yang didukung oleh crypto sangat bergantung kepada library yang didukung openssl, untuk melihat algoritma apa saja yang di-support oleh openssl, ketikkan perintah 
+```openssl list -cipher-algorithms``` pada layar console,\
 **Parameter ke-2** adalah `secret key` atau `salt`\
 **Parameter ke-3** adalah key [Initialization Vector] (https://en.wikipedia.org/wiki/Initialization_vector)\
 **Parameter ke-4** adalah parameter yang sifatnya opsional.
