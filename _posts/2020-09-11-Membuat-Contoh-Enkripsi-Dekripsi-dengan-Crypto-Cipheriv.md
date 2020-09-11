@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Membuat Enkripsi-Dekripsi dengan Crypto Cipheriv
 
@@ -41,4 +41,3 @@ Lalu untuk menggenerate parameter Initilialization Vector kita bisa menggunakan 
 ```
 Buffer.from(crypto.randomBytes(16))
 ```
-
