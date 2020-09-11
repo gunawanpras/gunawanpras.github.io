@@ -29,7 +29,7 @@ openssl list -cipher-algorithms
 ```
 
 **Parameter ke-2** adalah `secret key` atau `salt`\
-**Parameter ke-3** adalah key [Initialization Vector] (https://en.wikipedia.org/wiki/Initialization_vector)\
+**Parameter ke-3** adalah key [Initialization Vector](https://en.wikipedia.org/wiki/Initialization_vector)\
 **Parameter ke-4** adalah parameter yang sifatnya opsional.
 
 Oke langsung kita coba buat saja fungsi enkripsinya.
