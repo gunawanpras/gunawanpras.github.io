@@ -42,7 +42,7 @@ Lalu pada input parameter _key salt_ -nya bisa dari salah satu dari 5 tipe data 
 ### Contoh Key dengan tipe data String
 Contoh: `'1234567890abcdef1234567890abcdef' // <-- 32 karakter`
 
-Tapi, jika kita lihat rangkaian string di atas, tingkat _randomness_ datanya masih rendah. Masih sangat mudah terbaca atau diprediksi oleh orang lain. Sehingga bisa membuka celah keamanan di program aplikasi kita. Jadi cara ini sangat tidak direkomendasikan.
+Tapi, jika kita lihat rangkaian string di atas, tingkat _randomness_ datanya masih rendah. Masih sangat mudah terbaca atau diprediksi oleh orang lain. Sehingga bisa membuka celah keamanan di program aplikasi kita. Jadi cara penulisan seperti ini (hardcoded) sangat tidak direkomendasikan.
 
 Banyak metode untuk meningkatkan _randomness_ data, namun pada tutorial kali ini, kita hanya akan menggunakan salah satu metode dari crypto, yaitu `randomBytes()`.
 
