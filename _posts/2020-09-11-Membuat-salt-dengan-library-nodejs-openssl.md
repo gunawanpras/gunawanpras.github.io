@@ -18,6 +18,8 @@ Untuk format encoding _output hash_-nya, ada banyak format encoding yang bisa ki
 Informasi mengenai Base64 bisa kamu lihat di sini [Base64](https://en.wikipedia.org/wiki/Base64).\
 Pada contoh kali ini, saya hanya akan menggunakan format encoding Base64.
 
+Oke kita langsung buat aja.
+
 ### Crypto
 ```
 crypto.createHash('sha256').update(String('1234!@#$%')).digest('base64')
